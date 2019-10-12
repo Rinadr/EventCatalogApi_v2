@@ -7,7 +7,7 @@ networks:
 services:
   catalog:
     image: Event/CatalogApi
-    build:
+    build: 
       context: ./EventCatalogAPI
       dockerfile: Dockerfile
     environment:
